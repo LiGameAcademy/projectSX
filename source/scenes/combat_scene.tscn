@@ -11,7 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://062sompa2pml" path="res://assets/textures/background/Layer_0001_8.png" id="10_nmkkq"]
 [ext_resource type="Texture2D" uid="uid://6fawcdnvkcqt" path="res://assets/textures/background/Layer_0000_9.png" id="11_a2qif"]
 [ext_resource type="PackedScene" uid="uid://d08olufvkbwcn" path="res://source/UI/form/combat_form.tscn" id="12_h3ulb"]
-[ext_resource type="Script" path="res://source/scenes/combat_scene.gd" id="13_thwhq"]
+[ext_resource type="Script" uid="uid://04nkd2s5wcnf" path="res://source/scenes/combat_scene.gd" id="13_thwhq"]
 
 [node name="combat_scene" type="Node2D"]
 script = ExtResource("13_thwhq")

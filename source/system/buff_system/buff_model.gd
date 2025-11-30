@@ -29,4 +29,3 @@ func _init(id : StringName, value: int, caster: Character, target: Character) ->
 	self.caster = caster
 	self.target = target
 	is_stacked = data.is_stacked
-

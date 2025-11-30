@@ -11,8 +11,9 @@ config_version=5
 [application]
 
 config/name="ProjectSX"
+config/tags=PackedStringArray("godot10+")
 run/main_scene="res://main.tscn"
-config/features=PackedStringArray("4.2")
+config/features=PackedStringArray("4.4")
 config/icon="res://icon.png"
 
 [autoload]
@@ -21,6 +22,7 @@ GameInstance="*res://source/auto/game_instance.gd"
 SceneManager="*res://source/auto/scene_manager.gd"
 EventBus="*res://addons/li_framework/auto/event_bus.gd"
 DatatableManager="*res://addons/li_framework/auto/datatable_manager.gd"
+CoreSystem="*res://addons/godot_core_system/source/core_system.gd"
 
 [display]
 
@@ -28,7 +30,7 @@ window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/li_framework/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot_core_system/plugin.cfg", "res://addons/li_framework/plugin.cfg")
 
 [physics]
 

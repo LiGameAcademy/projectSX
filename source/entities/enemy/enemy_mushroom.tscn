@@ -4,7 +4,6 @@
 [ext_resource type="Texture2D" uid="uid://7b8chesuyp71" path="res://assets/textures/character/Mushroom/Idle.png" id="2_rsfih"]
 [ext_resource type="AnimationLibrary" uid="uid://cq2amtot2cw17" path="res://assets/animtions/enemy_mushroom.tres" id="3_7wc42"]
 
-
 [node name="enemy_mushroon" instance=ExtResource("1_nnovx")]
 
 [node name="Sprite2D" parent="." index="0"]

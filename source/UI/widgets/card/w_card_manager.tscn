@@ -1,10 +1,10 @@
 [gd_scene load_steps=7 format=3 uid="uid://72uhpsyxdbi7"]
 
-[ext_resource type="Script" path="res://source/UI/widgets/card/w_card_manager.gd" id="1_u3n8i"]
-[ext_resource type="Script" path="res://source/UI/widgets/card/w_hand_card.gd" id="2_bfh1e"]
+[ext_resource type="Script" uid="uid://br4wc6pg6nhe3" path="res://source/UI/widgets/card/w_card_manager.gd" id="1_u3n8i"]
+[ext_resource type="Script" uid="uid://bfd5m5ndasisx" path="res://source/UI/widgets/card/w_hand_card.gd" id="2_bfh1e"]
 [ext_resource type="PackedScene" uid="uid://dikirj650nrtg" path="res://source/UI/widgets/card/w_card_deck.tscn" id="2_fw5vv"]
 [ext_resource type="Texture2D" uid="uid://6wh8c7mujene" path="res://assets/textures/widgets/icons/icon_discard_deck.tres" id="5_cd6nf"]
-[ext_resource type="Script" path="res://source/UI/widgets/card/bezier_arrow.gd" id="6_our5o"]
+[ext_resource type="Script" uid="uid://jhwb1ljbrvdf" path="res://source/UI/widgets/card/bezier_arrow.gd" id="6_our5o"]
 [ext_resource type="PackedScene" uid="uid://cixs5tbqar2uk" path="res://source/UI/widgets/card/w_deck_details.tscn" id="7_td0xq"]
 
 [node name="w_card_manager" type="Control"]

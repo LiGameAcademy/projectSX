@@ -4,7 +4,6 @@
 [ext_resource type="Texture2D" uid="uid://iu6nhnmptpix" path="res://assets/textures/character/Goblin/Idle.png" id="2_vhk0g"]
 [ext_resource type="AnimationLibrary" uid="uid://vg1hh0sxm1mo" path="res://assets/animtions/enemy_goblin.tres" id="3_mec04"]
 
-
 [node name="enemy_goblin" instance=ExtResource("1_tuvj2")]
 
 [node name="Sprite2D" parent="." index="0"]

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dk4oobqquo7he"]
 
-[ext_resource type="Script" path="res://main.gd" id="1_a7x6l"]
-[ext_resource type="Script" path="res://source/procedure_manager.gd" id="2_65atl"]
+[ext_resource type="Script" uid="uid://broi8qnwlw6bc" path="res://main.gd" id="1_a7x6l"]
+[ext_resource type="Script" uid="uid://msa6v8ai26wn" path="res://source/procedure_manager.gd" id="2_65atl"]
 
 [node name="main" type="CanvasLayer"]
 script = ExtResource("1_a7x6l")

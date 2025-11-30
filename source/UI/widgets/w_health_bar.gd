@@ -39,4 +39,3 @@ static func _create_buff_widget(buff: Buff) -> W_Buff:
 	var w_buff: W_Buff = load("res://source/UI/widgets/w_buff.tscn").instantiate()
 	w_buff.buff = buff
 	return w_buff
-

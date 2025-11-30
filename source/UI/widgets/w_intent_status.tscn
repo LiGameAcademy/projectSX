@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://c2eootn4eg0wl"]
 
-[ext_resource type="Script" path="res://source/UI/widgets/w_intent_status.gd" id="1_1op2a"]
+[ext_resource type="Script" uid="uid://djkaub8a1k4x5" path="res://source/UI/widgets/w_intent_status.gd" id="1_1op2a"]
 [ext_resource type="Texture2D" uid="uid://boiwkvw4rd12i" path="res://assets/textures/widgets/Buffs/poison_dagger.png" id="1_ischg"]
 
 [sub_resource type="Animation" id="Animation_m15w2"]
@@ -52,9 +52,9 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_brsw3"]
 _data = {
-"RESET": SubResource("Animation_m15w2"),
-"execute": SubResource("Animation_rek3t"),
-"idle": SubResource("Animation_q3xtd")
+&"RESET": SubResource("Animation_m15w2"),
+&"execute": SubResource("Animation_rek3t"),
+&"idle": SubResource("Animation_q3xtd")
 }
 
 [node name="w_intent_status" type="Control"]

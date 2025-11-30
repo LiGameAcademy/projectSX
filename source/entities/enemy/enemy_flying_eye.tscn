@@ -6,7 +6,6 @@
 [ext_resource type="Texture2D" uid="uid://bhal1hjbslq5l" path="res://assets/textures/character/Flying eye/Attack.png" id="2_du6c3"]
 [ext_resource type="Texture2D" uid="uid://dxiwjtluxt0hy" path="res://assets/textures/character/Flying eye/Death.png" id="2_hx2s3"]
 
-
 [sub_resource type="Animation" id="Animation_e20al"]
 length = 0.001
 tracks/0/type = "value"
@@ -252,12 +251,12 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_18lqw"]
 _data = {
-"RESET": SubResource("Animation_e20al"),
-"attack": SubResource("Animation_ptnux"),
-"death": SubResource("Animation_6w8s4"),
-"hurt": SubResource("Animation_qwfdt"),
-"idle": SubResource("Animation_t0s7t"),
-"run": SubResource("Animation_un1xs")
+&"RESET": SubResource("Animation_e20al"),
+&"attack": SubResource("Animation_ptnux"),
+&"death": SubResource("Animation_6w8s4"),
+&"hurt": SubResource("Animation_qwfdt"),
+&"idle": SubResource("Animation_t0s7t"),
+&"run": SubResource("Animation_un1xs")
 }
 
 [node name="enemy_flying_eye" instance=ExtResource("1_5m082")]

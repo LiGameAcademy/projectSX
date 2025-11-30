@@ -19,7 +19,6 @@
 [ext_resource type="Texture2D" uid="uid://4jq66nshg62p" path="res://assets/textures/character/slime/idle/slime-idle-2.png" id="17_e611r"]
 [ext_resource type="Texture2D" uid="uid://u6y6llufrjh3" path="res://assets/textures/character/slime/idle/slime-idle-3.png" id="18_f8l8y"]
 
-
 [sub_resource type="Animation" id="Animation_j7sah"]
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -101,11 +100,11 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_p5yip"]
 _data = {
-"RESET": SubResource("Animation_j7sah"),
-"attack": SubResource("Animation_0w1a3"),
-"death": SubResource("Animation_6keks"),
-"hurt": SubResource("Animation_jkwjr"),
-"idle": SubResource("Animation_1iao4")
+&"RESET": SubResource("Animation_j7sah"),
+&"attack": SubResource("Animation_0w1a3"),
+&"death": SubResource("Animation_6keks"),
+&"hurt": SubResource("Animation_jkwjr"),
+&"idle": SubResource("Animation_1iao4")
 }
 
 [node name="enemy_slime" instance=ExtResource("1_c5g8a")]
@@ -118,7 +117,7 @@ position = Vector2(0, -60)
 
 [node name="AnimationPlayer" parent="." index="2"]
 libraries = {
-"": SubResource("AnimationLibrary_p5yip")
+&"": SubResource("AnimationLibrary_p5yip")
 }
 
 [node name="w_health_bar" parent="." index="3"]

@@ -2,8 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://d1dkxxilwqga4" path="res://source/entities/character.tscn" id="1_fb8bn"]
 [ext_resource type="Texture2D" uid="uid://btn6cqpmcj16g" path="res://assets/textures/character/adventurer/idle_00/adventurer-idle-00.png" id="3_70kh5"]
-[ext_resource type="Script" path="res://source/entities/player.gd" id="6_c67lg"]
-[ext_resource type="Script" path="res://source/system/card_system/C_CardSystem.gd" id="6_xhiqj"]
+[ext_resource type="Script" uid="uid://m4hwt6khvur3" path="res://source/entities/player.gd" id="6_c67lg"]
+[ext_resource type="Script" uid="uid://kw4ab5h0tpwe" path="res://source/system/card_system/C_CardSystem.gd" id="6_xhiqj"]
 [ext_resource type="Texture2D" uid="uid://d3fcpk31ueupa" path="res://assets/textures/character/adventurer/die/adventurer-die-00.png" id="7_e2d8t"]
 [ext_resource type="Texture2D" uid="uid://cyagfio7hrajm" path="res://assets/textures/character/adventurer/die/adventurer-die-01.png" id="8_4ixhf"]
 [ext_resource type="Texture2D" uid="uid://bhnqkn6d4a0d5" path="res://assets/textures/character/adventurer/die/adventurer-die-02.png" id="8_j73ny"]
@@ -210,15 +210,15 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_orul5"]
 _data = {
-"RESET": SubResource("Animation_72w5p"),
-"attack": SubResource("Animation_4ri8u"),
-"death": SubResource("Animation_120w7"),
-"hurt": SubResource("Animation_ibnnk"),
-"idle": SubResource("Animation_2am5v"),
-"idle_02": SubResource("Animation_21fv5"),
-"items": SubResource("Animation_fvfwo"),
-"swrd_drw": SubResource("Animation_g14vr"),
-"swrd_shte": SubResource("Animation_om1ha")
+&"RESET": SubResource("Animation_72w5p"),
+&"attack": SubResource("Animation_4ri8u"),
+&"death": SubResource("Animation_120w7"),
+&"hurt": SubResource("Animation_ibnnk"),
+&"idle": SubResource("Animation_2am5v"),
+&"idle_02": SubResource("Animation_21fv5"),
+&"items": SubResource("Animation_fvfwo"),
+&"swrd_drw": SubResource("Animation_g14vr"),
+&"swrd_shte": SubResource("Animation_om1ha")
 }
 
 [node name="player" instance=ExtResource("1_fb8bn")]
